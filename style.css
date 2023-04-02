@@ -182,3 +182,17 @@ header .right .imagem img {
     object-fit: contain;
     margin-bottom: 60px;
 }
+
+/* #### Responsivo #### */
+
+@media screen and (max-width: 920px){
+    .text-pq{
+        font-size: 13px;
+    }
+    .text-md {
+        font-size: 27px;
+    }
+    .text-gd {
+        font-size: 51px;
+    }
+}
