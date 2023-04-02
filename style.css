@@ -196,3 +196,51 @@ header .right .imagem img {
         font-size: 51px;
     }
 }
+
+@media screen and (max-width: 740px) {
+    header .right .imagem{
+        width: 100%;
+    }
+    .desktop-menu ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .left{
+    width: 100%;
+    min-height: auto;
+    padding: 0 2%;
+    }
+    .right {
+     width: 100%;
+    min-height: auto;
+    padding: 0 2%;
+    margin-top: -60px;
+    }
+    .logo {
+        width: 110px;
+        top: 10px;
+        left: 5px;
+    }
+    img {
+        width: 90%;
+    }
+    .call {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    header .left{
+        margin-top: -100px;
+    }
+
+    header .right .imagem{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 428px){
+    header .right .imagem{
+        width: 80%;
+    }
+}
