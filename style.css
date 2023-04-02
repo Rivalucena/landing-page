@@ -116,6 +116,14 @@ button:hover{
     color: var(--cinza1)
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 2px;
+    right: 10px;
+    padding: 5px 10px;
+    background: var(--marron);
+}
+
 /* #### Desktop-menu #### */
 
 .desktop-menu ul{
