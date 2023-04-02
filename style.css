@@ -17,6 +17,7 @@
     --marron: #8b634a;
     --azul2: #17203f;
     --cinza2: #848790;
+    --cinza3: #2b2b2b;
 }
 html, body {
     height: 100%;
@@ -122,6 +123,18 @@ button:hover{
     right: 10px;
     padding: 5px 10px;
     background: var(--marron);
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-track{
+    background: var(--branco);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--cinza3);
+    border-radius: 20px;
+    border: 1px solid var(--branco)
 }
 
 /* #### Desktop-menu #### */
