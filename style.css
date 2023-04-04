@@ -27,7 +27,7 @@ html, body {
     min-height: auto;
 }
 .bg {
-    /*background: url('assets/images/img-jpg3.jpg') no-repeat; */
+    background: var(--cinza);
     background-size: cover;
     width: 100%;
     height: auto;
